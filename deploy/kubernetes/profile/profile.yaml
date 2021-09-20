@@ -11,3 +11,6 @@ spec:
     - name: microservices-demo
       chart:
         path: ../helm-chart
+        defaultValues: |
+          zipkin:
+            enabled: true 
