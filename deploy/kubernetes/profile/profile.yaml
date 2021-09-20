@@ -13,4 +13,4 @@ spec:
         path: ../helm-chart
         defaultValues: |
           zipkin:
-            enabled: true 
+            enabled: true

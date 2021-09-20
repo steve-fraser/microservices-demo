@@ -15,3 +15,6 @@ pctl add --name microservices-demo \
     --profile-path ./deploy/kubernetes/profile \
     --git-repository flux-system/flux-system
 ```
+
+
+pctl add --name microservices-demo --namespace default --profile-branch zipkin --profile-repo-url https://github.com/steve-fraser/microservices-demo.git --profile-path ./deploy/kubernetes/profile/ --git-repository flux-system/flux-system
